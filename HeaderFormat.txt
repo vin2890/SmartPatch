@@ -1,0 +1,18 @@
+//ECG
+char header = 0x00; //ECG HEADER
+char ECGHeader = 0x3F;// ECG LIVE STREAMING
+
+//TEMP
+char header = 0x10; //TEMP HEADER
+char TEMPHeader = 0x1F;// TEMP LIVE STREAMING
+
+//ACCEL
+char header = 0x20; //ACCEL HEADER
+char ACCELHeader = 0x2F;// ACCEL LIVE STREAMING
+
+//GSR
+char header = 0x40; //GSR HEADER
+char GSRHeader = 0x4F;// GSR STREAMING
+
+//END HEADER
+#define END_DATA_HEADER				0x03

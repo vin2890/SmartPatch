@@ -1,0 +1,134 @@
+Description: This is a byte description of the ecg streaming data format for the MSP430 based wearable ECG
+Author: Kyle Green
+Date: 04/16/2019
+
+Byte 1: Header
+0x00
+Byte 2: Header Type
+0x3F  - this is the Live ECG Streaming Header byte
+Byte 3: Packet Start Header
+0x02 
+Byte 4: Packet Type Header
+0x93  - Live ECG Streaming Packet Header
+Byte 5: Heart Rate
+0x?? - Current Heart Rate
+Byte 6: Respiration Rate
+0x?? - Current Respiration Rate
+Byte 7: Lead Status
+0x?? - Lead Status Bits
+Byte 8: Channel 1 Sample 1 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 9: Channel 1 Sample 1 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 10: Channel 2 Sample 1 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 11: Channel 2 Sample 1 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 12: Channel 1 Sample 2 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 13: Channel 1 Sample 2 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 14: Channel 2 Sample 2 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 15: Channel 2 Sample 2 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 16: Channel 1 Sample 3 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 17: Channel 1 Sample 3 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 18: Channel 2 Sample 3 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 19: Channel 2 Sample 3 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 20: Channel 1 Sample 4 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 21: Channel 1 Sample 4 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 22: Channel 2 Sample 4 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 23: Channel 2 Sample 4 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 24: Channel 1 Sample 5 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 25: Channel 1 Sample 5 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 26: Channel 2 Sample 5 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 26: Channel 2 Sample 5 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 27: Channel 1 Sample 6 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 28: Channel 1 Sample 6 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 29: Channel 2 Sample 6 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 30: Channel 2 Sample 6 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 31: Channel 1 Sample 7 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 32: Channel 1 Sample 7 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 33: Channel 2 Sample 7 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 34: Channel 2 Sample 7 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 35: Channel 1 Sample 8 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 36: Channel 1 Sample 8 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 37: Channel 2 Sample 8 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 38: Channel 2 Sample 8 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 39: Channel 1 Sample 9 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 40: Channel 1 Sample 9 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 41: Channel 2 Sample 9 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 42: Channel 2 Sample 9 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 43: Channel 1 Sample 10 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 44: Channel 1 Sample 10 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 45: Channel 2 Sample 10 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 46: Channel 2 Sample 10 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 47: Channel 1 Sample 11 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 48: Channel 1 Sample 11 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 49: Channel 2 Sample 11 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 50: Channel 2 Sample 11 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 51: Channel 1 Sample 12 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 52: Channel 1 Sample 12 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 53: Channel 2 Sample 12 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 54: Channel 2 Sample 12 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 55: Channel 1 Sample 13 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 56: Channel 1 Sample 13 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 57: Channel 2 Sample 13 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 58: Channel 2 Sample 13 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 59: Channel 1 Sample 14 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 60: Channel 1 Sample 14 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 61: Channel 2 Sample 14 High Byte
+0x?? - High Byte  (B15-B8)
+Byte 62: Channel 2 Sample 14 Low Byte
+0x?? - Low Byte (B7-B0)
+Byte 63: End Data Header
+0x03 - End of Data Packet Header
+Byte 64: New Line Character
+0x10 - New line character
